@@ -161,9 +161,11 @@ git push
 
 При помощи команд создаю ключи SSH.
 - по алгоритму rsa
+
 ![Ключ SSH](PhotoLab1/photo3.PNG){#fig:003 width=50%}
 
 - по алгоритму ed25519
+
 ![Ключ SSH 2](PhotoLab1/photo4.PNG){#fig:003 width=50%}
 
 ## 4) Создать ключ PGP.
