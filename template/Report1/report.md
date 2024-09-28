@@ -138,9 +138,9 @@ git push
 # Выполнение лабораторной работы
 
 1) Создать базовую конфигурацию для работы с git. 
-![Установка при помощи пакета chocolate](template/Report1/PhotoLab1/config1.jpg){#fig:001 width=50%}
+![Установка при помощи пакета chocolate](PhotoLab1/config1.jpg){#fig:001 width=50%}
 
-![Установка при помощи пакета chocolate2](template/Report1/PhotoLab1/config2.jpg){#fig:002 width=50%}
+![Установка при помощи пакета chocolate2](PhotoLab1/config2.jpg){#fig:002 width=50%}
 Описываются проведённые действия, в качестве иллюстрации даётся ссылка на иллюстрацию (рис. [-@fig:001]).
 
 ![Название рисунка](image/placeimg_800_600_tech.jpg){#fig:001 width=70%}
