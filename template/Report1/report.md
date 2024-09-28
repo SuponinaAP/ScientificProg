@@ -85,38 +85,53 @@ header-includes:
 ## Базовая настройка git
 
 git config --global user.name "Name Surname" - задает имя владельца репозитория 
+
 git config --global user.email "work@mail" - задает email владельца репозитория 
+
 git config --global core.quotepath false - настройка utf-8 в выводе сообщений git
+
 git config --global init.defaultBranch master - задает имя начальной ветки
+
 git config --global core.autocrlf input - настройка параметра autocrlf
+
 git config --global core.safecrlf warn - настройка параметра safecrlf
 
 ## Команды для создания ключей ssh
 
 ssh-keygen -t rsa -b 4096 - по алгоритму rsa с ключём размером 4096 бит
+
 ssh-keygen -t ed25519 - – по алгоритму ed25519
 
 ## Команды для работы с ключами gpg
 
 gpg --full-generate-key - генерация gpg ключа с настройками
+
 gpg --list-secret-keys --keyid-format LONG - вывод списка ключей
+
 gpg --armor --export <PGP Fingerprint> | xclip -sel clip - копирование ключа в буфер обмена
 
 ## Команды для настройки автоматических подписей коммитов git
 
 git config --global user.signingkey <PGP Fingerprint>
+
 git config --global commit.gpgsign true
+
 git config --global gpg.program $(which gpg2)
 
 ## Для настройки каталога курса
 
 cd - переход в нужную папку
+
 make - создание новой папки/файла
+
 rm - удаление ненужной папки/файла 
 
-Отправка файлов на сервер:
+***Отправка файлов на сервер:***
+
 git add .
+
 git commit -am 'feat(main): make course structure'
+
 git push
 
 
